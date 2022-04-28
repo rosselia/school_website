@@ -1,0 +1,267 @@
+
+body{
+    font-family: Tahoma,sans-serif;
+    color: #5a5757;
+}
+
+.navbar{
+    width: 100%;
+    height: 100px;
+    
+}
+
+.logo img{
+    margin-left: 250px;
+    margin-top: 40px;
+}
+
+.logo:hover img{
+    transform: scale(1.15);
+}
+
+.navbar ul li{
+    list-style: none;
+    margin: 0px; /*yazıların kenara uzaklığı*/
+    margin-top: 70px; /*yazılar arası boşluk*/
+    
+}
+.navbar ul li a{
+    color: black;
+    text-decoration: none;
+    padding: 2px 4px;
+    font-size: 15px;
+    font-family: Tahoma,sans-serif ;
+}
+
+.navbar ul li a.active,
+.navbar ul li a:hover{
+    background:#C0C0C0
+    
+}
+
+
+.navbar ul li a.active,
+.navbar ul li a:hover{
+    font-size: 18px;
+}
+
+.announcements {
+  margin-left: 250px;
+  margin-top: 68px;
+}
+
+.anc-img:hover img{
+ transform: scale(1.02);
+}
+
+.announcements .ul .li{
+    color:black
+}
+
+.university .uni-img1 {
+    margin-left: 250px;
+    float: left;
+}
+
+.university .uni-info{
+    margin-left: 1000px;
+    margin-top: 200px;
+}
+
+.university .uni-img1:hover {
+    opacity: 0.7
+}
+
+.university .caption{
+    margin-left: 250px;
+    margin-top: 70px;
+    margin-right: 100px;
+}
+
+.university .uni-img2{
+    margin-left: 250px;
+}
+
+.content p{
+    text-align: justify;
+}
+
+#check{
+    display: none;
+}
+.content{
+    display: none;
+}
+
+label{
+    display: inline-block;
+    margin-top: 15px;
+    color:brown;
+    cursor: pointer;
+}
+#check:checked ~ .content{
+    display: block;
+}
+
+#check:checked ~ label{
+   visibility: hidden;
+}
+#check:checked ~ label:after{
+    content: 'Show Less';
+    display: block;
+    visibility: visible;
+}
+.academics-content h2{
+    margin-left: 250px;
+    margin-top: 70px;
+
+}
+.academics-content hr{
+    margin-left: 250px;
+}
+
+table {
+    margin-left: 250px;
+    margin-top: 20px;
+    margin-right: 200px;
+    border-collapse: collapse;
+  }
+  
+  td, th {
+    border: 1px solid #dddddd;
+    text-align: left;
+    padding: 8px;
+  }
+  
+  tr:nth-child(even) {
+    background-color: #dddddd;
+  }
+
+.student-content {
+    margin-left: 250px;
+    margin-top: 70px;
+}
+
+.login-content{
+    margin-left: 400px;
+    margin-right: 900px;
+    margin-top: 100px;
+}
+
+form {
+    border: 3px solid #f1f1f1;
+  }
+  
+  input[type=text], input[type=password] {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+  }
+  
+  button {
+    background-color: brown;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    cursor: pointer;
+    width: 100%;
+  }
+  
+  button:hover {
+    opacity: 0.8;
+  }
+  
+  .imgcontainer {
+    text-align: center;
+    margin: 24px 0 12px 0;
+  }
+  
+  .container {
+    padding: 16px;
+  }
+
+.documents-content {
+    margin-left: 250px;
+    margin-top: 70px;
+
+}
+.campuslife-content h2{
+    margin-left: 250px;
+    margin-top: 70px;
+
+}
+
+.campuslife-content iframe{
+    margin-left: 250px;
+}
+
+.researchs-content h2{
+    margin-left: 250px;
+    margin-top: 70px;
+}
+
+.researchs-content img{
+    margin-top: 50px;
+    margin-left: 300px;
+    float: left;
+    margin-right: 300px;
+}
+
+.researchs-content:hover img{
+    transform: scale(1.2);
+}
+
+.img2 img{
+    margin-top: 50px;
+    margin-left: 300px;
+    float: left;
+    margin-right: 300px;
+}
+
+.img2:hover img{
+    transform: scale(1.2);
+
+}
+.campuslife-content{
+    float: left;
+}
+
+.campuslife-content hr{
+    margin-left: 250px;
+    float: left;
+}
+.researchs-content hr{
+    margin-left: 250px;
+    float: left;
+}
+
+.hidden{
+    display: none;
+    list-style-type: none;
+   
+}
+
+.student:hover .hidden{
+    display: inline;
+    margin-top: 10px;
+}
+
+.student .hidden ul li{
+    margin-top: 30px;
+}
+
+footer {
+    margin: 0;
+    font-size: 12px;
+    text-align: center;
+    bottom: 0;
+    width: 100%;
+    height: 20px;
+    background-color: brown;
+    color: black;
+    position: fixed;
+}

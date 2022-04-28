@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="navbar">
+        <div class="logo">
+            <img src="images/estu_logo.png" alt="logo" style="width: 400px">
+        </div>
+        <ul>
+            <li><a href="home.html" >Home</a></li>
+            <li><a href="university.html">University</a></li>
+            <li><a href="academics.html">Academics</a></li>
+            
+            <li class="student"><a href="students.html" class="active">Students</a>
+                <ul>
+                    <li class="hidden"><a href="login.html">Login</a></li>
+                    <li class="hidden"><a href="documents.html">Documents</a></li>
+            </ul>
+            </li>
+        
+            <li><a href="research.html">Research</a></li>
+            <li><a href="campuslife.html">Campus Life</a></li>
+        </ul>
+    </div>
+    <div class="login-content">
+        <h2>Student Login</h2>
+        <hr style="width:100%;text-align:left;margin-left:0">
+        <br>
+        <form action="action_page.php" method="post">
+            <div class="imgcontainer">
+            </div>     
+            <div class="container">
+              <label for="uname"><b>Username</b></label>
+              <input type="text" placeholder="Enter Username" id="uname" required>
+              <label for="psw"><b>Password</b></label>
+              <input type="password" placeholder="Enter Password" id="psw" required>
+              <button type="submit" formaction="home.html">Login</button> 
+            </div>
+            <div class="container" style="background-color:#f1f1f1">
+            </div>
+          </form>
+    </div>
+    <footer>2022 © All rights reserved. Eskisehir Technical University. Ayşegül Terzi.</footer>
+</body>
+</html>
